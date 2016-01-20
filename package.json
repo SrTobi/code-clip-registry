@@ -16,12 +16,6 @@
     ],
     "icon": "images/icon.png",
     "activationEvents": [
-        "onCommand:clipreg.removeAllRingItems",
-        "onCommand:clipreg.removeRingItem",
-        "onCommand:clipreg.copyToRing",
-        "onCommand:clipreg.cutToRing",
-        "onCommand:clipreg.pasteRingItem",
-        "onCommand:clipreg.selectAndPasteRingItem",
         "onCommand:clipreg.removeAllRegisters",
         "onCommand:clipreg.removeRegister",
         "onCommand:clipreg.copyToRegister",
@@ -46,30 +40,6 @@
     "main": "./out/src/main",
     "contributes": {
         "commands": [
-            {
-                "command": "clipreg.removeAllRingItems",
-                "title": "Remove all Ring Items"
-            },
-            {
-                "command": "clipreg.removeRingItem",
-                "title": "Remove Ring Item"
-            },
-            {
-                "command": "clipreg.copyToRing",
-                "title": "Copy to Ring"
-            },
-            {
-                "command": "clipreg.cutToRing",
-                "title": "Cut to Ring"
-            },
-            {
-                "command": "clipreg.pasteRingItem",
-                "title": "Paste Ring Item"
-            },
-            {
-                "command": "clipreg.selectAndPasteRingItem",
-                "title": "Select and paste Ring Item"
-            },
             {
                 "command": "clipreg.copyToRegister",
                 "title": "Copy to Registry"
